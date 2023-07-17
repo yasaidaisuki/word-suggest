@@ -1,0 +1,10 @@
+STRING
+HASHTABLE 2
+INSERT alice
+INSERT bob
+INSERT charles
+INSERT alfred
+PRINT
+REMOVE bob
+PRINT
+REMOVE dave

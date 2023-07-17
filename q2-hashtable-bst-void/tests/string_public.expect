@@ -1,0 +1,14 @@
+string "alice" inserted into the hash table.
+string "bob" inserted into the hash table.
+string "charles" inserted into the hash table.
+string "alfred" inserted into the hash table.
+0: []
+1: []
+2: [1-alfred,0-alice,1-charles]
+3: [0-bob]
+SUCCESS: string "bob" removed from the hash table.
+0: []
+1: []
+2: [1-alfred,0-alice,1-charles]
+3: []
+WARNING: string "dave" not removed from the hash table.

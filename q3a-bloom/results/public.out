@@ -1,0 +1,36 @@
+key "foo" inserted into the counting Bloom filter.
+key "bar" inserted into the counting Bloom filter.
+table 0:
+  1
+  1
+  0
+  0
+table 1:
+  0
+  1
+  1
+  0
+table 2:
+  0
+  0
+  2
+  0
+key "foo" is in the counting Bloom filter.
+key "foobar" is not in the counting Bloom filter.
+SUCCESS: key "foo" removed from the counting Bloom filter.
+WARNING: key "foobar" not removed from the counting Bloom filter.
+table 0:
+  0
+  1
+  0
+  0
+table 1:
+  0
+  1
+  0
+  0
+table 2:
+  0
+  0
+  1
+  0

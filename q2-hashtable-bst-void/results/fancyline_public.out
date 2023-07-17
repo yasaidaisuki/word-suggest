@@ -1,0 +1,9 @@
+aa inserted into the hash table.
+!! inserted into the hash table.
+AA inserted into the hash table.
+aaa inserted into the hash table.
+A inserted into the hash table.
+0: []
+1: []
+2: [2-A,1-!!,2-AA,0-aa,1-aaa]
+3: []
